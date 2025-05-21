@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+
+}
+
+body {
+margin: 0;
+font-family: 'Inter';
+box-sizing: border-box;
+background-color: #242424; 
+color: white;
+
+background-image: url("React_(web_framework)-Logo.wine.png");
+background-repeat:no-repeat ;
+background-position-x: 850px ;
+background-position-y: 400px;
+background-size: 1700px;
+}
+
+/* --- Navbar Styling --- */
+.navbar {
+  display: flex;
+  align-items: center;
+  color: #61DBFB;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.React-Image{
+  width: 80px;
+}
+
+/* --- Main Content Area Styling --- */
+
+
+.Main-Title{
+  margin-top: 5%;
+  margin-left: 1%;
+  text-align: left;
+  font-size: 40px;
+}
+
+.main-list{
+  line-height: 2.5em;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 20px;
+}
+
+li::marker{
+  color: #61DBFB;
+  font-size: 30px;
+}
